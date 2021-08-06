@@ -46,7 +46,7 @@ services:
             - POSTGRES_PASSWORD=todo1234
             - REDIS_HOST=todo-redis
             - REDIS_PORT=6379
-            - ELASTICSEARCH_HOST=elastic
+            - ELASTICSEARCH_HOST=todo-elastic
             - ELASTICSEARCH_PORT=9200
         volumes:
             - /app/node_modules
